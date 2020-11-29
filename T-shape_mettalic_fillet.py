@@ -1,3 +1,8 @@
+"""This script generates a crack propagation job on a T-shape structural metallic fillet. The model contains an upper part,
+which the crack propagation is happening, and a bottom part which is modelled as a support to the upper. The crack propagation
+is being investigated when the shape of the bottom part is changing"""
+
+
 from abaqus import *
 from abaqusConstants import *
 import __main__
