@@ -1,13 +1,11 @@
-This script can only be used in Abaqus CAE software. A crack propagation application following the LEFM method is solved.Script description:
+This repo contains some scripts for generating crack propagation jobs on Abaqus CAE software.
 
-a) A Rectangular Matrix is created
+The crack propagation is being investigated with the LEFM method (Linear Elastic Fracture Mechanics)
 
-b) Random circular inclusions are created inside the matrix
-
-c) A crack tip at the left side of the matrix is created
-
-d) Load sets, BCs and other auxiliaries, are finally created and the CRACK PROPAGATION job is solved. 
-
-Note: The shape of the inclusions can be changed by modifing the part of the code which contains the inclusions characteristics.
-
-For example, elliptical or mixed shape inclusions can be used for generating the crack propagation
+i) The first model is a rectangular matrix reinforced with inclusions (circular, elliptical, mixed).
+   The crack propagation is happening into the rectangular matrix.
+ 
+ 
+ii) The second model is a T-shape Structural Metallic fillet along with a rectangular bottom part
+    as a support to the upper T-shape fillet. The crack propagation is being investigated as the
+    shape of the bottom support part is changing.
