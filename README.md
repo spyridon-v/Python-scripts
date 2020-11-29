@@ -12,3 +12,4 @@ ii) The second model is a T-shape Structural Metallic fillet along with a rectan
     shape of the bottom support part is changing.
 ![alt text](https://github.com/spyverg/Abaqus_CAE_scripting/blob/master/flexible_fillet.png?raw=true)
 
+![alt text](https://github.com/spyverg/Abaqus_CAE_scripting/blob/master/rigid_fillet.png?raw=true)
